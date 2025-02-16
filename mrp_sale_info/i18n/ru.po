@@ -19,35 +19,35 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_sale_info.field_mrp_production__commitment_date
 #: model:ir.model.fields,field_description:mrp_sale_info.field_mrp_workorder__commitment_date
 msgid "Commitment Date"
-msgstr "Zusagedatum"
+msgstr "Дата принятия обязательств"
 
 #. module: mrp_sale_info
 #: model:ir.model.fields,field_description:mrp_sale_info.field_mrp_production__partner_id
 #: model:ir.model.fields,field_description:mrp_sale_info.field_mrp_workorder__partner_id
 msgid "Customer"
-msgstr "Kunde"
+msgstr "Клиент"
 
 #. module: mrp_sale_info
 #: model:ir.model.fields,field_description:mrp_sale_info.field_mrp_production__client_order_ref
 #: model:ir.model.fields,field_description:mrp_sale_info.field_mrp_workorder__client_order_ref
 msgid "Customer Reference"
-msgstr "Kundenreferenz"
+msgstr "Ссылка на клиента"
 
 #. module: mrp_sale_info
 #: model:ir.model,name:mrp_sale_info.model_mrp_production
 msgid "Production Order"
-msgstr "Fertigungsauftrag"
+msgstr "Производственный заказ"
 
 #. module: mrp_sale_info
 #: model_terms:ir.ui.view,arch_db:mrp_sale_info.mrp_production_workorder_form_view_inherit
 msgid "Sale information"
-msgstr "Verkaufsinformation"
+msgstr "Информация о продаже"
 
 #. module: mrp_sale_info
 #: model:ir.model.fields,field_description:mrp_sale_info.field_mrp_production__sale_id
 #: model:ir.model.fields,field_description:mrp_sale_info.field_mrp_workorder__sale_id
 msgid "Sale order"
-msgstr "Verkaufsauftrag"
+msgstr "Заказ на продажу"
 
 #. module: mrp_sale_info
 #: model:ir.model.fields,field_description:mrp_sale_info.field_mrp_production__source_procurement_group_id
@@ -57,7 +57,7 @@ msgstr "Source Procurement Group"
 #. module: mrp_sale_info
 #: model:ir.model,name:mrp_sale_info.model_stock_rule
 msgid "Stock Rule"
-msgstr "Bestandsregel"
+msgstr "Правило склада"
 
 #. module: mrp_sale_info
 #: model:ir.model.fields,help:mrp_sale_info.field_mrp_production__commitment_date
@@ -66,11 +66,11 @@ msgid ""
 "This is the delivery date promised to the customer. If set, the delivery "
 "order will be scheduled based on this date rather than product lead times."
 msgstr ""
-"Dies ist das dem Kunden zugesagte Lieferdatum. Falls festgelegt, wird der "
-"Lieferauftrag auf der Grundlage dieses Datums und nicht der "
-"Produktvorlaufzeiten geplant."
+"Это дата доставки, обещанная клиенту. Если она установлена, то заказ на "
+"поставку будет планироваться исходя из этой даты, а не из времени ожидания "
+"товара."
 
 #. module: mrp_sale_info
 #: model:ir.model,name:mrp_sale_info.model_mrp_workorder
 msgid "Work Order"
-msgstr "Arbeitsauftrag"
+msgstr "Производственное задание"

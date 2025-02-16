@@ -19,45 +19,45 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_sale_info.field_mrp_production__commitment_date
 #: model:ir.model.fields,field_description:mrp_sale_info.field_mrp_workorder__commitment_date
 msgid "Commitment Date"
-msgstr "Zusagedatum"
+msgstr "Taahhüt Tarihi"
 
 #. module: mrp_sale_info
 #: model:ir.model.fields,field_description:mrp_sale_info.field_mrp_production__partner_id
 #: model:ir.model.fields,field_description:mrp_sale_info.field_mrp_workorder__partner_id
 msgid "Customer"
-msgstr "Kunde"
+msgstr "Müşteri"
 
 #. module: mrp_sale_info
 #: model:ir.model.fields,field_description:mrp_sale_info.field_mrp_production__client_order_ref
 #: model:ir.model.fields,field_description:mrp_sale_info.field_mrp_workorder__client_order_ref
 msgid "Customer Reference"
-msgstr "Kundenreferenz"
+msgstr "Müşteri Referansı"
 
 #. module: mrp_sale_info
 #: model:ir.model,name:mrp_sale_info.model_mrp_production
 msgid "Production Order"
-msgstr "Fertigungsauftrag"
+msgstr "Üretim Emri"
 
 #. module: mrp_sale_info
 #: model_terms:ir.ui.view,arch_db:mrp_sale_info.mrp_production_workorder_form_view_inherit
 msgid "Sale information"
-msgstr "Verkaufsinformation"
+msgstr "Satış bilgileri"
 
 #. module: mrp_sale_info
 #: model:ir.model.fields,field_description:mrp_sale_info.field_mrp_production__sale_id
 #: model:ir.model.fields,field_description:mrp_sale_info.field_mrp_workorder__sale_id
 msgid "Sale order"
-msgstr "Verkaufsauftrag"
+msgstr "Satış Siparişi"
 
 #. module: mrp_sale_info
 #: model:ir.model.fields,field_description:mrp_sale_info.field_mrp_production__source_procurement_group_id
 msgid "Source Procurement Group"
-msgstr "Source Procurement Group"
+msgstr "Kaynak Tedarik Grubu"
 
 #. module: mrp_sale_info
 #: model:ir.model,name:mrp_sale_info.model_stock_rule
 msgid "Stock Rule"
-msgstr "Bestandsregel"
+msgstr "Stok Kuralı"
 
 #. module: mrp_sale_info
 #: model:ir.model.fields,help:mrp_sale_info.field_mrp_production__commitment_date
@@ -66,11 +66,10 @@ msgid ""
 "This is the delivery date promised to the customer. If set, the delivery "
 "order will be scheduled based on this date rather than product lead times."
 msgstr ""
-"Dies ist das dem Kunden zugesagte Lieferdatum. Falls festgelegt, wird der "
-"Lieferauftrag auf der Grundlage dieses Datums und nicht der "
-"Produktvorlaufzeiten geplant."
+"Bu, müşteriye söz verilen teslimat tarihidir. Belirlenmişse, teslimat "
+"siparişi ürün tedarik süreleri yerine bu tarihe göre planlanacaktır."
 
 #. module: mrp_sale_info
 #: model:ir.model,name:mrp_sale_info.model_mrp_workorder
 msgid "Work Order"
-msgstr "Arbeitsauftrag"
+msgstr "İş Emri"
